@@ -1,0 +1,160 @@
+body{
+	background-image: url('pics/F1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	max-width: 100%;
+}
+
+/*elso oldal eleje*/
+a{
+	color: black;
+}
+
+a:link{
+	text-decoration: none;
+	text-decoration-color: none;
+}
+
+.menureszsor{
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+}
+
+.gomb:hover a{
+	color: black;
+}
+
+
+.gomb{
+
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	margin: 5px;
+	padding: 5px;
+	color: black;
+}
+
+.gomb:hover{	
+	color: black;
+	padding: 5px;
+}
+
+.gombaktiv{	
+	color: red;
+	padding: 5px;
+}
+
+.gombaktiv a{
+	color: black;
+	padding: 5px;
+}
+
+a{
+	margin:0;
+	padding:5px;
+	font-size: 2.5vw;
+	color: red;
+
+}
+/* elso oldal vége */
+/*első oldal*/
+.cim{	
+	color: red;
+	padding: 0;
+	background-color: none;
+	font-size: 2vw;
+}
+/*első oldal vége*/
+
+
+/*masodik oldal kezdes*/
+.bem{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+	grid-gap: 10px;
+}
+
+
+.jomagam{	
+	display: block;
+	margin: 1.5rem;
+	object-fit:contain;
+
+}
+
+.bemutatkozas{
+	display: block;
+	background-color: rgba(0,0,0,0.9);
+	border-radius: 2.0rem;
+	color: white;
+	margin:80px;
+	padding:10px;
+	font-size: 1.6vw;	
+}
+.szocialis{
+	position: relative;
+	text-align: center;
+    border-width: 0;
+    font-size:1.4vw;
+    width: 500;
+	margin-left:44%;
+}
+.social{
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+/*masodik oldal vege*/
+
+/*harmadik oldal kezdes*/
+
+.autok1{
+	display: block;
+	padding: 35px;
+	margin: 10px;
+	background-color: black;
+	border-radius: 2rem;
+}
+
+.munka1{
+	display: grid;
+	grid-gap: 2rem;
+	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+	margin: 30px;
+}
+
+/*harmadik oldal vege*/
+
+/*negyedik oldal kezdete*/
+
+.terv{
+	display: block;
+	padding: 50px;
+	margin: 10%;
+	background-color: #000000;
+	border-radius: 1rem;
+}
+
+.megvalositas{
+	display: block;
+	padding: 50px;
+	margin: 10%;
+	background-color: black;
+	border-radius: 1rem;
+	padding: 20px;
+	color: white;
+}
+
+/*negyedik oldal vége*/
